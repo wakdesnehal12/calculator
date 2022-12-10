@@ -91,13 +91,12 @@ export default function Calculator() {
                 onChange={changeHandler}
                 name="number_two"
                 value={curValue.number_two}
-                />
+            />
         </Grid>
         <Grid mt={2}>
             <AddBoxIcon 
                 color="primary"
                 onClick={() => handleClick('add')}
-                
             />
             <IndeterminateCheckBoxIcon 
                 color="primary"
@@ -118,10 +117,10 @@ export default function Calculator() {
         </Grid>
         <Grid mt={2}>
             <TextField
-            label="Total"
-            type="number"
-            size="small"
-            value={curValue.total}
+                label="Total"
+                type="number"
+                size="small"
+                value={curValue.total}
             />
         </Grid>
     </>
